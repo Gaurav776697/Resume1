@@ -1,100 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume 2</title>
+    <title>ruseme 3</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
-    <div id="count">
-        <h1>resume </h1>
-        <hr>
-        <br>
-        <img src="ankit.jpg" width="80px" alt="my image">
-        <div id="name" class="section">
-            <h4>Gaurav Raj</h4>
-        </div>
-
+    <fieldset id="backgr">
         <div>
-            <p>I am punctual and <span>motivated individual</span> who is able to work in a busy environment and produce
-                high standards of work. I am an <span>excellent team worker</span> and able to take instructions from
-                all
-                levels and build <span>up good working relationship</span> with all colleagues. I am <span>flexible,
-                    reliable and possess excellent time keeping skills</span>. I am a dedicated, organised and
-                methodical
-                individual. I have an active and dynamic approach to work and getting things done. I am determined and
-                decisive. I identify and develop opportunities.</p>
-        </div>
-        <div id="Intrest" class="section">
-            <p>Intrests</p>
+        <h1 style="text-align: center;color: red;">Registation Form</h1>    
+        <br><hr>
+        <form action="">
+            <label for="Details">Enter your Details Below </label>
             <ul>
-                <li>Coding</li>
-                <li>Reading Book</li>
-                <li>Cricket</li>
-                <li>Hockey</li>
+<li>
+    <input type="text" placeholder="your-email.@gmail.com" required>
+</li>
             </ul>
-        </div>
-        <div id="Skills" class="section">
-            <p>Skills</p>
-            <ol>
-                <li>Html</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ol>
-        </div>
-        <div id="Education" class="section">
-            <p>Education</p>
-            <table border="1px">
-                <tr>
-                    <th>Education</th>
-                    <th>College Name</th>
-                    <th>Website</th>
-                    <th>Grade</th>
-                </tr>
-                <tr>
-                    <td>High School</td>
-                    <td>Sogra high school college</td>
-                    <td><a href="https://www.biharbiz.com/soghra-high-school-2-bihar-sharif">Sogra high school
-                            college</a>
-                    </td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>Inter</td>
-                    <td>Sogra high school college</td>
-                    <td><a href="https://www.biharbiz.com/soghra-high-school-2-bihar-sharif">Sogra high school
-                            college</a>
-                    </td>
-                    <td>A</td>
-                </tr>
-            </table>
-        </div>
-        <div id="Contact" class="section">
-            <h2>Contact</h2>
-            <table border="1px">
-                <tr>
-                    <th>Mobile No.</th>
-                    <th>Email id</th>
-                </tr>
-                <tr>
-                    <td>7766977403</td>
-                    <td>kumarikhusi746287@gmail.com</td>
-                </tr>
-            </table>
-        </div>
-        <div class="section">
-            <h2>Conect with me</h2>
-            <p>Add your message here</p>
-            <textarea name="" id="" cols="30" rows="5"></textarea>
-            <br>
-            <button type="submit">Submit</button>
-        </div>
-    </div>
-</body>
+            <ul>
+<li>
+    <input type="password" placeholder="password"required>
+</li>
 
+            </ul>
+            <p><b>!Type a Complex password with 8-20 characters.</b></p><br>
+            <ul>
+<li>
+    <input type="number" placeholder="+20phone-number"required>
+</li>
+
+            </ul>
+            <hr>
+            <p><b>Enter Your profession:</b></p>
+            <ul>
+                <li>
+                    <input type="radio" name="profession">Student
+                    <input type="radio" name="profession">teacher
+                    <input type="radio" name="profession">Developer
+                </li>
+            </ul>
+            <label for="Student"> Choose the stage if you are (Student)</label>
+            <select name="student"id="">
+                <option value="First-Primary">first primary</option>
+                <option value="Second-Primary">second primary</option>
+                <option value="Third-Primary">third primary</option>
+                </select>
+                <ul>
+                    <li>
+                        <label for="birth"> Enter your birth date</label>
+                        <input type="date">
+                    </li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>
+                        <input type="text" placeholder="any notes">
+                    </li>
+                </ul>
+                <input type="submit"><input type="reset">
+        </form>
+        </div>
+        </fieldset>
+</body>
 </html>
